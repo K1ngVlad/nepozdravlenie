@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: none;
+  font-family: 'Lobster', cursive;
+  color: cadetblue;
+  text-shadow: rgb(136, 174, 196) 1px 0 10px;
+}
+
+.animate {
+  display: block;
+  animation: ani 1s forwards;
+  transition-duration: 0.1s;
+}
+
+@keyframes ani {
+  0% {
+    font-size: 0px;
+  }
+  100% {
+    font-size: 65px;
+  }
+}
