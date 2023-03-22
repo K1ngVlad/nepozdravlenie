@@ -2,7 +2,7 @@ const img = document.querySelector('img');
 const text = document.querySelector('.text');
 
 const letsbirthday = () => {
-  img.setAttribute('src', '/assets/dr.gif');
+  img.setAttribute('src', './assets/dr.gif');
   setTimeout(() => {
     img.style.display = 'none';
     text.classList.add('animate');
