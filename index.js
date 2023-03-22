@@ -16,7 +16,6 @@ document.addEventListener('mousemove', (e) => {
   const height = document.documentElement.clientHeight;
   const x = e.clientX;
   const y = e.clientY;
-  console.log(x, y);
   const obj = document.querySelector('.animate');
   if (obj) {
     obj.style.transform = `translate(${(width - x) / 25}px , ${
